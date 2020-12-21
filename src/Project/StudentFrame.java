@@ -29,8 +29,8 @@ public class StudentFrame extends JFrame
             am[i]=Integer.toString(mstudents.get(i).getAM());
         }
         String inputAM = (String) JOptionPane.showInputDialog(null, "Α.Μ.:",
-        "ΕΠΕΛΕΞΕ ΜΑΘΗΤΗ", JOptionPane.QUESTION_MESSAGE, null, // Use
-        am, // Array of choices
+        "ΕΠΕΛΕΞΕ ΜΑΘΗΤΗ", JOptionPane.QUESTION_MESSAGE, null, 
+        am, 
         am[0]);
         System.out.println(inputAM);
         
@@ -39,8 +39,8 @@ public class StudentFrame extends JFrame
             code[i]=Integer.toString(mlessons.get(i).getCode());
         }
         String inputCode = (String) JOptionPane.showInputDialog(null, "ΚΩΔΙΚΟΣ:",
-        "ΕΠΕΛΕΞΕ ΚΩΔΙΚΟ ΜΑΘΗΜΑΤΟΣ", JOptionPane.QUESTION_MESSAGE, null, // Use
-        code, // Array of choices
+        "ΕΠΕΛΕΞΕ ΚΩΔΙΚΟ ΜΑΘΗΜΑΤΟΣ", JOptionPane.QUESTION_MESSAGE, null, 
+        code, 
         code[0]);
         System.out.println(inputCode);
         double grade=Double.parseDouble(JOptionPane.showInputDialog("ΒΑΘΜΟΣ:"));
