@@ -12,7 +12,7 @@ class include 2 constructors, set and get methods as well as a toString () metho
 **3. class Enroll** for course registration. Private fields include the student's registration number, the course's code and the student's grade
 in this course. The class include 2 constructors, set and get methods as well as a toString () method.
 
-**4. class StudentFrame**for the implementation of the GUI. The private fields of the application should include the following
+**4. class StudentFrame**for the implementation of the GUI. The private fields of the application includes the following
 
 **1. ArrayList <Student> mstudents** for student storage.
 
